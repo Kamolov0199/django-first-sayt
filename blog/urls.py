@@ -5,10 +5,10 @@ from core.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', asosiy),
-    path('asosiy/cars1.html/', ferrary),
-    path('asosiy/cars2.html/', mersedes),
-    path('asosiy/cars3.html/', bmv),
-    path('asosiy/cars4.html/', toyota),
-    path('asosiy/cars5.html/', mers),
-    path('asosiy/cars6.html/', nissan)
+    path('ferrary/', ferrary),
+    path('mercedes/', mersedes),
+    path('bmw/', bmv),
+    path('toyota/', toyota),
+    path('mers/', mers),
+    path('nissan/', nissan)
 ]
