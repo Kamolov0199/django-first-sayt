@@ -15,7 +15,7 @@ def bmv(request):
 def toyota(request):
     return render(request, 'cars4.html')
 
-def mers(request):
+def lada(request):
     return render(request, 'cars5.html')
 
 def nissan(request):

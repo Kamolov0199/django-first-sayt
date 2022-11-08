@@ -9,6 +9,6 @@ urlpatterns = [
     path('mercedes/', mersedes),
     path('bmw/', bmv),
     path('toyota/', toyota),
-    path('mers/', mers),
-    path('nissan/', nissan)
+    path('lada/', lada),
+    path('nissan/', nissan),
 ]
